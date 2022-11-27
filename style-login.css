@@ -1,0 +1,151 @@
+/*// copyright ©2022 of  jiteshchichole123@gmail.com (JITESH CHICHOLE & CODING DRAGON) //*/
+
+body {
+    background-color: aqua;
+    font-size: 1.6rem;
+    font-family: "Open Sans", sans-serif;
+    color: #000000;
+  }
+  h2 {
+    font-weight: 300;
+    text-align: center;
+  }
+  p {
+    position: relative;
+  }
+
+  .login-form-wrap {
+    background-color: rgba(255, 255, 255, 0.445);
+    width: 35%;
+    height:350pt;
+    margin: 30px auto;
+    text-align: center;
+    padding: 20px 0 0 0;
+    border-radius: 4px;
+    box-shadow: 0px 30px 50px 0px rgba(0, 0, 0, 0.384);
+  }
+  
+  .login-form {
+    padding: 0 60px;
+  }
+  input {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    outline: none;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 4px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 0 0 0 10px;
+    margin: 0;
+    color: #000000;
+    border: 1px solid #1d1d1d75;
+    font-style: normal;
+    font-size: 16px;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    position: relative;
+    display: inline-block;
+    background: none;
+  }
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="password"]:focus {
+    border-color: #3ca8e2d5;
+  }
+  input[type="text"]:focus:invalid,
+  input[type="email"]:focus:invalid,
+  input[type="password"]:focus:invalid {
+    color: #cc1e2ae1;
+    border-color: #cc1e2ae3;
+  }
+  input[type="text"]:valid ~ .validation,
+  input[type="email"]:valid ~ .validation,
+  input[type="password"]:valid ~ .validation{
+    display: block;
+    border-color: rgba(0, 204, 0, 0.801);
+  }
+  input[type="text"]:valid ~ .validation span,
+  input[type="email"]:valid ~ .validation span,
+  input[type="password"]:valid ~ .validation span{
+    background: rgba(1, 255, 1, 0.822);
+    position: absolute;
+    border-radius: 6px;
+  }
+  input[type="text"]:valid ~ .validation span:first-child,
+  input[type="email"]:valid ~ .validation span:first-child,
+  input[type="password"]:valid ~ .validation span:first-child {
+    top: 30px;
+    left: 14px;
+    width: 20px;
+    height: 3px;
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+  }
+  input[type="text"]:valid ~ .validation span:last-child,
+  input[type="email"]:valid ~ .validation span:last-child,
+  input[type="password"]:valid ~ .validation span:last-child{
+    top: 35px;
+    left: 8px;
+    width: 11px;
+    height: 3px;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+  #submit {
+    border: none;
+    display: block;
+    background-color: #3ca9e2;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    font-size: 28px;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    width: 60%;
+    height: 60px;
+    border-radius: 8px;
+  }
+  #submit:hover {
+    background-color: #3279d5;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+  }
+ .goback{
+  border: none;
+  display: block;
+  background-color: #3ca9e2;
+  color: #fff;
+  padding-top: 2px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  font-size: 28px;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  width: 60%;
+  height: 60px;
+  border-radius: 8px;
+ }

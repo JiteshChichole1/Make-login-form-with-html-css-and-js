@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>login</title>
+        <link rel="stylesheet" href="style-login.css">
+    </head>
+    <body>
+        <br>
+        <br>
+        <!-- copyright ©2022 of  jiteshchichole123@gmail.com (JITESH CHICHOLE & CODING DRAGON){https://youtu.be/jIDbfYCi93E} -->
+        <div class="login-form-wrap" id="login">
+        <h2>Login</h2>
+        <div class="login-form">
+            <p>
+        <input type="text" id="User" value="" placeholder="Enter your name" /></p>
+        <p>
+        <input type="email"    id="email"    value="" placeholder="Enter your email" required/></p>
+        <p>
+        <input type="password" id="password" value="" placeholder="Enter your password" /></p>
+        <p>
+        <p>
+        <button id="submit">login</button></p>
+        </div>
+        </div>
+        <script>
+            
+                  const button = document.getElementById('submit');
+            button.addEventListener('click', async event =>{
+            
+            var x = document.getElementById("login");
+            if (button.innerHTML) {
+                x.innerHTML = " <br><br><br><br><br>Successful Login ! <br><br> <a class=goback href=#>GO Back<a>";
+                } else {
+                    x.innerHTML;
+                }
+            });
+
+ </script>
+    </body>
+</html>
